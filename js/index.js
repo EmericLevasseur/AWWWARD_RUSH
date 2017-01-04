@@ -5,7 +5,7 @@
 
 
 $( window ).ready(function() {
-
+  
     var wHeight = $(window).height();
 
     $('.slide')
@@ -13,11 +13,11 @@ $( window ).ready(function() {
       .scrollie({
         scrollOffset : -50,
         scrollingInView : function(elem) {
-
+                   
           var bgColor = elem.data('background');
-
+          
           $('body').css('background-color', bgColor);
-
+          
         }
       });
 
