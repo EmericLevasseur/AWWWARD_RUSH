@@ -1,17 +1,86 @@
+
+
 * { box-sizing: border-box }
 
 body {
-  font-family: 'Coming Soon', cursive;
+  font-family: sans-serif;
+}
+
+.slide .inside {
+display: table;
+height: 100%;
+width: 100%;
+padding: 0 3em;
+}
+.slide .inside p {
+display: table-cell;
+width: 100%;
+clear: both;
+vertical-align: middle;
+text-align: center;
+}
+
+
+.carre {
+position: fixed;
+background-color: black;
+height: 300px;
+width: 300px;
+top: 50%;
+left: 40%;
+transform: translate(-50%, -50%);
+}
+
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+::-webkit-scrollbar-thumb {
+background: #FF0000;
+}
+
+body {
   transition: background 1s ease;
    background: #3498db;
    overflow-y: hidden;
 }
 
-p {
-  color: #ecf0f1;
-  font-size: 2em;
+.title-custom {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
   text-align: center;
+  padding-bottom: 30px;
+  margin-top: 8%;
+}
 
+p {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.ima {
+  width: 90%;
+  float: right;
+}
+
+.etape {
+  text-align: center;
+  color: #fff;
+}
+
+.medium-size {
+  margin-top: 18%;
+  transform: translate(0, -10%);
+  width: 40%;
+  float: right;
+  padding-right: 40px;
 }
 
 span {
