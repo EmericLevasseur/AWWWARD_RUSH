@@ -72,6 +72,14 @@ background: transparent;
 background: #FF0000;
 }
 
+<<<<<<< HEAD
+=======
+body {
+
+   background: #3498db;
+   overflow-y: hidden;
+}
+>>>>>>> origin/master
 
 .title-custom {
   color: #fff;
