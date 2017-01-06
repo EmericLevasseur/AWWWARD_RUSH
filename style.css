@@ -44,7 +44,7 @@ background: #FF0000;
 }
 
 body {
-  transition: background 1s ease;
+
    background: #3498db;
    overflow-y: hidden;
 }
