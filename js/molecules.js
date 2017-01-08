@@ -83,10 +83,10 @@ function generate_mol(mol){
       ctx.lineTo(this.x - 26,this.y + 73);
       ctx.moveTo(this.x - 60,this.y + 86);
       ctx.lineTo(this.x - 70,this.y + 100);
-      ctx.strokeStyle = "rgba(255,255,255,0.2)";
+      ctx.strokeStyle = "rgba(255,255,255,0.7)";
       ctx.lineWidth = 4;
       ctx.stroke();
-      ctx.fillStyle = "rgba(255,255,255,0.2)";
+      ctx.fillStyle = "rgba(255,255,255,0.7)";
       ctx.font = "15px Arial";
       ctx.fillText("CH", this.x - 5, this.y);
       ctx.fillText("3", this.x + 18, this.y+6);
@@ -123,7 +123,7 @@ function generate_mol(mol){
       ctx.lineTo(this.x + 22,this.y + 70);
       ctx.moveTo(this.x,this.y + 36);
       ctx.lineTo(this.x + 22,this.y + 49);
-      ctx.strokeStyle = "rgba(255,255,255,0.2)";
+      ctx.strokeStyle = "rgba(255,255,255,0.7)";
       ctx.lineWidth = 3;
       ctx.stroke();
       ctx.closePath();
