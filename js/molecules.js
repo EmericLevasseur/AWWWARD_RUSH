@@ -19,7 +19,7 @@ canvas.height = h;
 var mols = [];
 
 function init(){
-  for(var i=0;i<8;i++){
+  for(var i=0;i<10;i++){
     var mol = new generate_mol("C8H10N4O2");
     mols.push(mol);
     var mol = new generate_mol("C6H6");
